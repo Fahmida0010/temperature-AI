@@ -3,7 +3,7 @@
 One method per endpoint. All analysis endpoints are async task-based —
 the `_submit_and_wait` helper handles polling so notebook users don't have to.
 """
-
+    
 from __future__ import annotations
 
 import os
